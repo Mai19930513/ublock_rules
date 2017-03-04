@@ -21,5 +21,7 @@ ublock:
 
 本规则不会包含部分能轻松过滤的广告(如easy list包含的)，使用本规则前请先添加以下三个规则:
 https://github.com/cjx82630/cjxlist
+
 https://easylist-downloads.adblockplus.org/easylistchina.txt
+
 https://easylist-downloads.adblockplus.org/easyprivacy.txt
