@@ -1,0 +1,46 @@
+! 百度首页清理
+baidu.com###navs
+baidu.com##.blank-frame
+baidu.com###bottom
+baidu.com###menu-container
+baidu.com###logo
+baidu.com###weather
+baidu.com###userinfo-wrap
+baidu.com##.con-wrap > .se-inner
+baidu.com###index-box
+
+! 搜索结果清理
+baidu.com###head
+baidu.com###page-copyright
+baidu.com###page-ft
+baidu.com##.rw-title
+baidu.com##b-scroll
+baidu.com###page-tips
+baidu.com###se-box
+baidu.com##.wa-sam-wz-micro-video3-wrapper
+baidu.com##.wa-realtime-list
+baidu.com##.c-gap-bottom-large
+baidu.com##.c-line-bottom
+baidu.com##.wa-we-image
+baidu.com##.c-recomm-wrap.c-container
+baidu.com##.wa-image
+baidu.com##.wa-wise-app-desc
+baidu.com##.wa-wise-app-info-metabar
+baidu.com##.wa-wise-app-searchhook
+
+! 百度百科清理
+wapbaike.baidu.com###J-attach-top
+
+! 一些元素名称会变的广告的清理(屏蔽生成随机元素名的js)
+! 去掉圾百度搜索推广
+||baidu.com/se/static/js/modules/invoke/app
+! 去掉垃圾淘宝应用推荐广告
+||taobao.com/js/smartbanner
+||alicdn.com/mtb/lib-smartbanner-plus
+! 去掉垃圾百度百科招人
+||bkssl.bdimg.com/static/wiki-mobile-lemma/widget/beforeContent-n/topAttach
+
+! 误清白名单
+! 百度百科
+@@/share/share_$domain=wapbaike.baidu.com
+
