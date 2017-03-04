@@ -9,6 +9,7 @@ baidu.com###userinfo-wrap
 baidu.com##.con-wrap > .se-inner
 baidu.com###index-box
 
+
 ! 搜索结果清理
 baidu.com###head
 baidu.com###page-copyright
@@ -28,8 +29,10 @@ baidu.com##.wa-wise-app-desc
 baidu.com##.wa-wise-app-info-metabar
 baidu.com##.wa-wise-app-searchhook
 
+
 ! 百度百科清理
 wapbaike.baidu.com###J-attach-top
+
 
 ! 一些元素名称会变的广告的清理(屏蔽生成随机元素名的js)
 ! 去掉圾百度搜索推广
@@ -39,8 +42,28 @@ wapbaike.baidu.com###J-attach-top
 ||alicdn.com/mtb/lib-smartbanner-plus
 ! 去掉垃圾百度百科招人
 ||bkssl.bdimg.com/static/wiki-mobile-lemma/widget/beforeContent-n/topAttach
+! 百度贴吧游戏
+||bdstatic.com/tb/mobile/cool_game
+
 
 ! 误清白名单
 ! 百度百科
 @@/share/share_$domain=wapbaike.baidu.com
+
+
+! bilibili清理
+m.bilibili.com###b_app_link
+m.bilibili.com##.download-link
+m.bilibili.com##.wrapper > div:nth-of-type(6)
+
+
+! 百度贴吧清理
+tieba.baidu.com##.bottom-wonderful-recommend
+tieba.baidu.com##.footer
+tieba.baidu.com##.sug_hot_recommend
+tieba.baidu.com##.sug_region_body:nth-of-type(2)
+tieba.baidu.com##.cool_game
+tieba.baidu.com##.can_close
+tieba.baidu.com##.j_click_stats
+tieba.baidu.com##.top_ext_li_recommend
 
