@@ -18,8 +18,9 @@
 @@/share/share_$domain=wapbaike.baidu.com
 
 
-! 测试规则(可能误杀比较严重，请自行开启)
-! ||alicdn.com*smartbanner*
+! 测试规则(如有误杀，请自行关闭)
+||alicdn.com*smartbanner*
+
 
 ! 百度首页清理
 baidu.com###navs
@@ -51,6 +52,7 @@ baidu.com##.wa-image
 baidu.com##.wa-wise-app-desc
 baidu.com##.wa-wise-app-info-metabar
 baidu.com##.wa-wise-app-searchhook
+baidu.com##.wa-stock-lead
 
 
 ! 百度百科清理
@@ -79,10 +81,16 @@ www.zhihu.com##.AppMagicBanner
 
 
 ! 新浪体育清理(由coolapk@jfa2008提出
-! 可能误杀严重，请自行开启
-! sports.sina.cn##body > section:nth-of-type(1)
+! 如有误杀，请自行关闭
+sports.sina.cn##body > section:nth-of-type(1)
+sports.sina.cn###pageJumpBtn
 
 
 ! 天猫清理
 tmall.com##.tm-ctn-loading
 tmall.com###detail-base-smart-banner
+
+
+! 百度经验清理
+jingyan.baidu.com###exp-fixed-bottom
+
