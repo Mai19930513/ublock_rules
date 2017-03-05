@@ -67,3 +67,8 @@ tieba.baidu.com##.can_close
 tieba.baidu.com##.j_click_stats
 tieba.baidu.com##.top_ext_li_recommend
 
+! 知乎清理
+www.zhihu.com##.AppMagicBanner
+
+! 新浪体育清理(由coolapk@jfa2008提出
+sports.sina.cn##body > section:nth-of-type(1)
