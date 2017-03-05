@@ -1,3 +1,26 @@
+! 一些元素名称会变的广告的清理(屏蔽生成随机元素名的js)
+! 去掉圾百度app广告
+||baidu.com/se/static/js/modules/invoke/app
+! 去掉垃圾淘宝app广告
+||taobao.com/js/smartbanner
+||alicdn.com/mtb/lib-smartbanner-plus
+! 去掉垃圾百度百科招人
+||bkssl.bdimg.com/static/wiki-mobile-lemma/widget/beforeContent-n/topAttach
+! 百度贴吧游戏
+||bdstatic.com/tb/mobile/cool_game
+! 去掉垃圾天猫app广告
+||alicdn.com/mui/smartbanner
+||alicdn.com/mui/*app-download
+
+
+! 误清白名单
+! 百度百科
+@@/share/share_$domain=wapbaike.baidu.com
+
+
+! 测试规则(可能误杀比较严重，请自行开启)
+! ||alicdn.com*smartbanner*
+
 ! 百度首页清理
 baidu.com###navs
 baidu.com##.blank-frame
@@ -34,23 +57,6 @@ baidu.com##.wa-wise-app-searchhook
 wapbaike.baidu.com###J-attach-top
 
 
-! 一些元素名称会变的广告的清理(屏蔽生成随机元素名的js)
-! 去掉圾百度搜索推广
-||baidu.com/se/static/js/modules/invoke/app
-! 去掉垃圾淘宝应用推荐广告
-||taobao.com/js/smartbanner
-||alicdn.com/mtb/lib-smartbanner-plus
-! 去掉垃圾百度百科招人
-||bkssl.bdimg.com/static/wiki-mobile-lemma/widget/beforeContent-n/topAttach
-! 百度贴吧游戏
-||bdstatic.com/tb/mobile/cool_game
-
-
-! 误清白名单
-! 百度百科
-@@/share/share_$domain=wapbaike.baidu.com
-
-
 ! bilibili清理
 m.bilibili.com###b_app_link
 m.bilibili.com##.download-link
@@ -67,8 +73,16 @@ tieba.baidu.com##.can_close
 tieba.baidu.com##.j_click_stats
 tieba.baidu.com##.top_ext_li_recommend
 
+
 ! 知乎清理
 www.zhihu.com##.AppMagicBanner
 
+
 ! 新浪体育清理(由coolapk@jfa2008提出
-sports.sina.cn##body > section:nth-of-type(1)
+! 可能误杀严重，请自行开启
+! sports.sina.cn##body > section:nth-of-type(1)
+
+
+! 天猫清理
+tmall.com##.tm-ctn-loading
+tmall.com###detail-base-smart-banner
