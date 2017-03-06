@@ -1,5 +1,5 @@
 /----------综合屏蔽规则----------/
-! Last Updated:201703062020
+! Last Updated:2017030703034
 ! What's New:自己去酷安找(╯°口°)╯(┴—┴
 
 
@@ -21,10 +21,15 @@
 ! 误清白名单
 ! 百度百科
 @@/share/share_$domain=wapbaike.baidu.com
+！ 百度知道
+zhidao.baidu.com#@#.question-container
 
 
-! 测试规则(如有误杀，请自行关闭)
-||alicdn.com*smartbanner*
+! 测试规则(请自行选择是否开启)
+! 阿里app推荐
+! ||alicdn.com*smartbanner*
+! 百度知道清理(需配合上面的白名单使用)
+! zhidao.baidu.com###main-content
 
 
 ! 百度首页清理
@@ -66,9 +71,13 @@ wapbaike.baidu.com###J-attach-top
 
 
 ! bilibili清理
-m.bilibili.com###b_app_link
-m.bilibili.com##.download-link
-m.bilibili.com##.wrapper > div:nth-of-type(6)
+bilibili.com###b_app_link
+bilibili.com##.download-link
+bilibili.com##.player-inner-download
+bilibili.com##.wrapper > div:nth-of-type(6)
+bilibili.com##.wrapper > div:nth-of-type(7)
+bilibili.com##.wrapper > div:nth-of-type(8)
+
 
 
 ! 百度贴吧清理
@@ -89,7 +98,6 @@ www.zhihu.com##.AppMagicBanner
 
 
 ! 新浪体育清理(由coolapk@jfa2008发现此广告
-! 如有误杀，请自行关闭
 sports.sina.cn##body > section:nth-of-type(1)
 sports.sina.cn###pageJumpBtn
 
@@ -114,3 +122,9 @@ image.baidu.com##.addon-container-0
 image.baidu.com##.gotop
 image.baidu.com##.mediacy-rs-contain
 image.baidu.com##.istextlink
+
+
+! 百度知道清理
+zhidao.baidu.com##.dom-inspector
+
+
