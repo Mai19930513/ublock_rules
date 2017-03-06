@@ -1,3 +1,8 @@
+/----------综合屏蔽规则----------/
+! Last Updated:201703061217
+! What's New:自己去酷安找(╯°口°)╯(┴—┴
+
+
 ! 一些元素名称会变的广告的清理(屏蔽生成随机元素名的js)
 ! 去掉圾百度app广告
 ||baidu.com/se/static/js/modules/invoke/app
@@ -53,6 +58,7 @@ baidu.com##.wa-wise-app-desc
 baidu.com##.wa-wise-app-info-metabar
 baidu.com##.wa-wise-app-searchhook
 baidu.com##.wa-stock-lead
+baidu.com##.c-gap-bottom-small
 
 
 ! 百度百科清理
@@ -74,6 +80,8 @@ tieba.baidu.com##.cool_game
 tieba.baidu.com##.can_close
 tieba.baidu.com##.j_click_stats
 tieba.baidu.com##.top_ext_li_recommend
+tieba.baidu.com##.more_btn_package
+tieba.baidu.com##.frs_sign_in_show
 
 
 ! 知乎清理
