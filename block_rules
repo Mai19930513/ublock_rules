@@ -1,5 +1,5 @@
 /----------综合屏蔽规则----------/
-! Last Updated:201703061217
+! Last Updated:201703061616
 ! What's New:自己去酷安找(╯°口°)╯(┴—┴
 
 
@@ -102,3 +102,5 @@ tmall.com###detail-base-smart-banner
 ! 百度经验清理
 jingyan.baidu.com###exp-fixed-bottom
 
+! 我爱热可乐清理(由coolapk@jfa2008提出
+||www.a0c77.com
