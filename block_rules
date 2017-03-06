@@ -1,5 +1,5 @@
 /----------综合屏蔽规则----------/
-! Last Updated:201703061616
+! Last Updated:201703062020
 ! What's New:自己去酷安找(╯°口°)╯(┴—┴
 
 
@@ -88,7 +88,7 @@ tieba.baidu.com##.frs_sign_in_show
 www.zhihu.com##.AppMagicBanner
 
 
-! 新浪体育清理(由coolapk@jfa2008提出
+! 新浪体育清理(由coolapk@jfa2008发现此广告
 ! 如有误杀，请自行关闭
 sports.sina.cn##body > section:nth-of-type(1)
 sports.sina.cn###pageJumpBtn
@@ -102,5 +102,15 @@ tmall.com###detail-base-smart-banner
 ! 百度经验清理
 jingyan.baidu.com###exp-fixed-bottom
 
-! 我爱热可乐清理(由coolapk@jfa2008提出
+
+! 我爱热可乐清理(由coolapk@jfa2008发现此广告
 ||www.a0c77.com
+
+
+! 百度图片清理(由coolapk@jfa2008发现此广告
+image.baidu.com##.dom-inspector
+image.baidu.com##.new
+image.baidu.com##.addon-container-0
+image.baidu.com##.gotop
+image.baidu.com##.mediacy-rs-contain
+image.baidu.com##.istextlink
