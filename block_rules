@@ -68,6 +68,7 @@ baidu.com##.c-gap-bottom-small
 
 ! 百度百科清理
 wapbaike.baidu.com###J-attach-top
+wapbaike.baidu.com###J-declare
 
 
 ! bilibili清理
@@ -77,7 +78,6 @@ bilibili.com##.player-inner-download
 bilibili.com##.wrapper > div:nth-of-type(6)
 bilibili.com##.wrapper > div:nth-of-type(7)
 bilibili.com##.wrapper > div:nth-of-type(8)
-
 
 
 ! 百度贴吧清理
@@ -91,6 +91,7 @@ tieba.baidu.com##.j_click_stats
 tieba.baidu.com##.top_ext_li_recommend
 tieba.baidu.com##.more_btn_package
 tieba.baidu.com##.frs_sign_in_show
+tieba.baidu.com##.xiang-guan-tie
 
 
 ! 知乎清理
@@ -127,4 +128,16 @@ image.baidu.com##.istextlink
 ! 百度知道清理
 zhidao.baidu.com##.dom-inspector
 
+
+! 百度云清理
+pan.baidu.com##.foot-container
+
+
+! miui论坛清理
+www.miui.com###app
+
+
+! 139邮箱清理
+mail.10086.cn###advertisingPicture
+mail.10086.cn##.uniPositionArticle
 
