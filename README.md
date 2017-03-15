@@ -25,3 +25,6 @@ https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt
 https://easylist-downloads.adblockplus.org/easylistchina.txt
 
 https://easylist-downloads.adblockplus.org/easyprivacy.txt
+
+推荐大家去用这个过滤规则，比我的不知道高到哪里去了
+https://git.oschina.net/halflife/list/raw/master/ad.txt
