@@ -1,36 +1,5 @@
 /----------综合屏蔽规则----------/
-! Last Updated:2017030703034
-! What's New:自己去酷安找(╯°口°)╯(┴—┴
-
-
-! 一些元素名称会变的广告的清理(屏蔽生成随机元素名的js)
-! 去掉圾百度app广告
-||baidu.com/se/static/js/modules/invoke/app
-! 去掉垃圾淘宝app广告
-||taobao.com/js/smartbanner
-||alicdn.com/mtb/lib-smartbanner-plus
-! 去掉垃圾百度百科招人
-||bkssl.bdimg.com/static/wiki-mobile-lemma/widget/beforeContent-n/topAttach
-! 百度贴吧游戏
-||bdstatic.com/tb/mobile/cool_game
-! 去掉垃圾天猫app广告
-||alicdn.com/mui/smartbanner
-||alicdn.com/mui/*app-download
-
-
-! 误清白名单
-! 百度百科
-@@/share/share_$domain=wapbaike.baidu.com
-！ 百度知道
-zhidao.baidu.com#@#.question-container
-
-
-! 测试规则(请自行选择是否开启)
-! 阿里app推荐
-! ||alicdn.com*smartbanner*
-! 百度知道清理(需配合上面的白名单使用)
-! zhidao.baidu.com###main-content
-
+! Last Updated:20170316
 
 ! 百度首页清理
 baidu.com###navs
@@ -40,11 +9,11 @@ baidu.com###menu-container
 baidu.com###logo
 baidu.com###weather
 baidu.com###userinfo-wrap
-baidu.com##.con-wrap > .se-inner
+baidu.com##.se-inner
 baidu.com###index-box
 
-
 ! 搜索结果清理
+||baidu.com/se/static/js/modules/invoke/app
 baidu.com###head
 baidu.com###page-copyright
 baidu.com###page-ft
@@ -64,12 +33,21 @@ baidu.com##.wa-wise-app-info-metabar
 baidu.com##.wa-wise-app-searchhook
 baidu.com##.wa-stock-lead
 baidu.com##.c-gap-bottom-small
-
+baidu.com##.c-moreinfo
+baidu.com##.c-gap-right-small
+baidu.com##.c-color-gray
+baidu.com##.c-foot-icon
+baidu.com##.wa-sg-wise-app-download
+baidu.com##.c-showurl
+baidu.com##.c-gap-left
+baidu.com##.wa-wise-sp-discuss
 
 ! 百度百科清理
+||bkssl.bdimg.com/static/wiki*topAttach
+@@/share/share_$domain=wapbaike.baidu.com
 wapbaike.baidu.com###J-attach-top
 wapbaike.baidu.com###J-declare
-
+wapbaike.baidu.com###J-gotop
 
 ! bilibili清理
 bilibili.com###b_app_link
@@ -79,8 +57,8 @@ bilibili.com##.wrapper > div:nth-of-type(6)
 bilibili.com##.wrapper > div:nth-of-type(7)
 bilibili.com##.wrapper > div:nth-of-type(8)
 
-
 ! 百度贴吧清理
+||bdstatic.com/tb/mobile/cool_game
 tieba.baidu.com##.bottom-wonderful-recommend
 tieba.baidu.com##.footer
 tieba.baidu.com##.sug_hot_recommend
@@ -92,29 +70,46 @@ tieba.baidu.com##.top_ext_li_recommend
 tieba.baidu.com##.more_btn_package
 tieba.baidu.com##.frs_sign_in_show
 tieba.baidu.com##.xiang-guan-tie
-
+tieba.baidu.com###bottom-share-button
+tieba.baidu.com###index-app-overlay
+tieba.baidu.com##.forum_recommend_w
+tieba.baidu.com###index-tuijian-wrap
+tieba.baidu.com##.j_tab_selected
+tieba.baidu.com##.j_tab_discovery
+tieba.baidu.com##.j_client_ghost_icon
 
 ! 知乎清理
 www.zhihu.com##.AppMagicBanner
-
 
 ! 新浪体育清理(由coolapk@jfa2008发现此广告
 sports.sina.cn##body > section:nth-of-type(1)
 sports.sina.cn###pageJumpBtn
 
-
 ! 天猫清理
+||alicdn.com/mui/smartbanner
+||alicdn.com/mui/*app-download
 tmall.com##.tm-ctn-loading
 tmall.com###detail-base-smart-banner
 
+! 淘宝清理
+||taobao.com/js/smartbanner
+||alicdn.com/mtb/lib-smartbanner-plus
+
+! 阿里系清理
+! ||alicdn.com*smartbanner*
 
 ! 百度经验清理
 jingyan.baidu.com###exp-fixed-bottom
-
+jingyan.baidu.com##.placeholder
+jingyan.baidu.com##.wgt-rel-magazine
+jingyan.baidu.com##.wgt-ad-bottom
+jingyan.baidu.com##.wgt-ad-recommend
+jingyan.baidu.com##.wgt-toolbar-n
+jingyan.baidu.com##.wgt-btn-group-tool
+jingyan.baidu.com##.wgt-footer
 
 ! 我爱热可乐清理(由coolapk@jfa2008发现此广告
 ||www.a0c77.com
-
 
 ! 百度图片清理(由coolapk@jfa2008发现此广告
 image.baidu.com##.dom-inspector
@@ -124,20 +119,48 @@ image.baidu.com##.gotop
 image.baidu.com##.mediacy-rs-contain
 image.baidu.com##.istextlink
 
-
 ! 百度知道清理
+! zhidao.baidu.com#@#.question-container
 zhidao.baidu.com##.dom-inspector
-
+zhidao.baidu.com###p-footer
+zhidao.baidu.com###releatd-mavin-pagelet
+zhidao.baidu.com###people-concern-pagelet
+zhidao.baidu.com###p-gotop
+||bdstatic.com/*m_common_share*js,domain=zhidao.baidu.com
+zhidao.baidu.com##.banner-list-dots
+zhidao.baidu.com###p-header
+zhidao.baidu.com###p-relate-question
+zhidao.baidu.com## .dec
+zhidao.baidu.com##.append
+zhidao.baidu.com##.w-special-answer > h2
+zhidao.baidu.com##.cur
+||zhidao.baidu.com$xmlhttprequest
 
 ! 百度云清理
 pan.baidu.com##.foot-container
 
-
 ! miui论坛清理
 www.miui.com###app
-
 
 ! 139邮箱清理
 mail.10086.cn###advertisingPicture
 mail.10086.cn##.uniPositionArticle
+
+! 酷安清理
+coolapk.com##.visible-xs
+
+! apkpure清理
+apkpure.com##.aegon-warp
+
+! 百度翻译清理
+fanyi.baidu.com##.android-style
+fanyi.baidu.com##.bottom-intro
+fanyi.baidu.com##.download-btn
+
+! qq邮箱清理
+mail.qq.com##.top_announce_mobileqq
+
+! d-h.st清理
+d-h.st###downloadfile3
+
 
