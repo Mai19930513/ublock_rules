@@ -1,5 +1,5 @@
 /----------综合屏蔽规则----------/
-! Last Updated:20170316
+! Last Updated:20170409
 
 ! 百度首页清理
 baidu.com###navs
@@ -41,6 +41,7 @@ baidu.com##.wa-sg-wise-app-download
 baidu.com##.c-showurl
 baidu.com##.c-gap-left
 baidu.com##.wa-wise-sp-discuss
+baidu.com##.wa-wise-video-entertainers-tabs-wrapper
 
 ! 百度百科清理
 ||bkssl.bdimg.com/static/wiki*topAttach
@@ -48,6 +49,7 @@ baidu.com##.wa-wise-sp-discuss
 wapbaike.baidu.com###J-attach-top
 wapbaike.baidu.com###J-declare
 wapbaike.baidu.com###J-gotop
+wapbaike.baidu.com##.float-content-wrapper
 
 ! bilibili清理
 bilibili.com###b_app_link
@@ -56,6 +58,7 @@ bilibili.com##.player-inner-download
 bilibili.com##.wrapper > div:nth-of-type(6)
 bilibili.com##.wrapper > div:nth-of-type(7)
 bilibili.com##.wrapper > div:nth-of-type(8)
+bilibili.com##.load-cover
 
 ! 百度贴吧清理
 ||bdstatic.com/tb/mobile/cool_game
@@ -159,8 +162,25 @@ fanyi.baidu.com##.download-btn
 
 ! qq邮箱清理
 mail.qq.com##.top_announce_mobileqq
+mail.qq.com##.qm_toolbar_WeReadAd
+mail.qq.com##.folderlist_note
+mail.qq.com##.folderlist_bottle
+mail.qq.com##.folderlist_contacts
+mail.qq.com##.folderlist_filestation
+mail.qq.com##.folderlist_attach
+mail.qq.com##.folderlist_card
+mail.qq.com##.folderlist_openrss
+mail.qq.com##a[href^="http://info.3g.qq.com"]
+mail.qq.com##.qm_footer_links > a[href^="/cgi-bin/readtemplate"]
+mail.qq.com##.resultPage_subtitle
+mail.qq.com##.login_container
 
 ! d-h.st清理
 d-h.st###downloadfile3
 
+! 小米 bbs 清理
+bbs.xiaomi.cn##.bannerBottom
+
+! smartisan bbs 清理
+bbs.smartisan.com##.tips-download
 
