@@ -1,5 +1,5 @@
 /----------综合屏蔽规则----------/
-! Last Updated:20170409
+! Last Updated:20170426
 
 ! 百度首页清理
 baidu.com###navs
@@ -11,6 +11,7 @@ baidu.com###weather
 baidu.com###userinfo-wrap
 baidu.com##.se-inner
 baidu.com###index-box
+baidu.com###appBanner
 
 ! 搜索结果清理
 ||baidu.com/se/static/js/modules/invoke/app
@@ -50,6 +51,8 @@ wapbaike.baidu.com###J-attach-top
 wapbaike.baidu.com###J-declare
 wapbaike.baidu.com###J-gotop
 wapbaike.baidu.com##.float-content-wrapper
+wapbaike.baidu.com##.BK-after-content-wrapper
+wapbaike.baidu.com###topbar_tashuo
 
 ! bilibili清理
 bilibili.com###b_app_link
@@ -80,9 +83,17 @@ tieba.baidu.com###index-tuijian-wrap
 tieba.baidu.com##.j_tab_selected
 tieba.baidu.com##.j_tab_discovery
 tieba.baidu.com##.j_client_ghost_icon
+tieba.baidu.com##.share_footer_wrapper
+tieba.baidu.com###pb_imgs > a
+tieba.baidu.com##.pb_imgs_right2 > span
+tieba.baidu.com##.dia_mask
+tieba.baidu.com##.dia_wrapper
+tieba.baidu.com##.u9_pb_style
 
 ! 知乎清理
 www.zhihu.com##.AppMagicBanner
+www.zhihu.com##.Section:nth-of-type(2)
+www.zhihu.com##.Section:nth-of-type(3)
 
 ! 新浪体育清理(由coolapk@jfa2008发现此广告
 sports.sina.cn##body > section:nth-of-type(1)
@@ -97,9 +108,11 @@ tmall.com###detail-base-smart-banner
 ! 淘宝清理
 ||taobao.com/js/smartbanner
 ||alicdn.com/mtb/lib-smartbanner-plus
+taobao.com##.download-adv
+taobao.com##.suggest-container
 
 ! 阿里系清理
-! ||alicdn.com*smartbanner*
+||alicdn.com*smartbanner*
 
 ! 百度经验清理
 jingyan.baidu.com###exp-fixed-bottom
@@ -110,9 +123,6 @@ jingyan.baidu.com##.wgt-ad-recommend
 jingyan.baidu.com##.wgt-toolbar-n
 jingyan.baidu.com##.wgt-btn-group-tool
 jingyan.baidu.com##.wgt-footer
-
-! 我爱热可乐清理(由coolapk@jfa2008发现此广告
-||www.a0c77.com
 
 ! 百度图片清理(由coolapk@jfa2008发现此广告
 image.baidu.com##.dom-inspector
@@ -174,6 +184,7 @@ mail.qq.com##a[href^="http://info.3g.qq.com"]
 mail.qq.com##.qm_footer_links > a[href^="/cgi-bin/readtemplate"]
 mail.qq.com##.resultPage_subtitle
 mail.qq.com##.login_container
+mail.qq.com##.readmail_warning_bar
 
 ! d-h.st清理
 d-h.st###downloadfile3
@@ -184,3 +195,57 @@ bbs.xiaomi.cn##.bannerBottom
 ! smartisan bbs 清理
 bbs.smartisan.com##.tips-download
 
+! 京东清理
+jd.com###download_banner
+jd.com###search_land_searchland
+jd.com###layout_appdown_view
+
+! 手机乐园清理
+shouji.com.cn###backtop
+shouji.com.cn##.aegon-warp
+shouji.com.cn##.safe-link
+
+! 小米商城清理
+mi.com###globalLoading
+mi.com##.download-app-go
+mi.com###top
+
+! 作业帮清理
+www.zybang.com###smallLayer
+www.zybang.com###middleAd
+www.zybang.com##.askTeacher
+www.zybang.com###topBannerFixed
+www.zybang.com##.app-ads
+www.zybang.com###baiduAd
+www.zybang.com##.qb_wgt-recommend
+www.zybang.com##.qb-wgt_footer
+www.zybang.com##.qb-wgt_guide
+
+! 太平洋电脑网清理
+pconline.com.cn###pc-aptg
+pconline.com.cn##.toTop-btn
+pconline.com.cn##.write-cmt
+pconline.com.cn##.m-yiyetu
+pconline.com.cn###JappJump
+
+! 萌娘百科清理
+moegirl.org##.heimu
+
+! opengapps清理
+opengapps.org###topa
+
+! 清理
+vdisk.weibo.com###recommend_for_file_container
+
+! 有道note清理
+note.youdao.com###app-dl
+
+! 土豆清理
+www.tudou.com##.cms-banner
+
+! vokins大佬的hosts未过滤的广告域名
+||jiansuo.dsxdn.com^
+||hao.1235k.com^
+||w1.guowuhui.com^
+||9ads.net^
+||www.a0c77.com^
