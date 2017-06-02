@@ -1,5 +1,5 @@
 /----------综合屏蔽规则----------/
-! Last Updated:20170426
+! Last Updated:20170602
 
 ! 百度首页清理
 baidu.com###navs
@@ -35,14 +35,17 @@ baidu.com##.wa-wise-app-searchhook
 baidu.com##.wa-stock-lead
 baidu.com##.c-gap-bottom-small
 baidu.com##.c-moreinfo
-baidu.com##.c-gap-right-small
+! baidu.com##.c-gap-right-small
 baidu.com##.c-color-gray
 baidu.com##.c-foot-icon
 baidu.com##.wa-sg-wise-app-download
-baidu.com##.c-showurl
+! baidu.com##.c-showurl
 baidu.com##.c-gap-left
 baidu.com##.wa-wise-sp-discuss
 baidu.com##.wa-wise-video-entertainers-tabs-wrapper
+baidu.com###tc-card-advertise-container
+baidu.com##.c-line-clamp1
+baidu.com##.c-text-info
 
 ! 百度百科清理
 ||bkssl.bdimg.com/static/wiki*topAttach
@@ -58,10 +61,8 @@ wapbaike.baidu.com###topbar_tashuo
 bilibili.com###b_app_link
 bilibili.com##.download-link
 bilibili.com##.player-inner-download
-bilibili.com##.wrapper > div:nth-of-type(6)
-bilibili.com##.wrapper > div:nth-of-type(7)
-bilibili.com##.wrapper > div:nth-of-type(8)
 bilibili.com##.load-cover
+bilibili.com*bannerList
 
 ! 百度贴吧清理
 ||bdstatic.com/tb/mobile/cool_game
@@ -91,9 +92,8 @@ tieba.baidu.com##.dia_wrapper
 tieba.baidu.com##.u9_pb_style
 
 ! 知乎清理
-www.zhihu.com##.AppMagicBanner
-www.zhihu.com##.Section:nth-of-type(2)
-www.zhihu.com##.Section:nth-of-type(3)
+zhihu.com##.AppMagicBanner
+www.zhihu.com##.OpenInAppButton
 
 ! 新浪体育清理(由coolapk@jfa2008发现此广告
 sports.sina.cn##body > section:nth-of-type(1)
@@ -123,6 +123,7 @@ jingyan.baidu.com##.wgt-ad-recommend
 jingyan.baidu.com##.wgt-toolbar-n
 jingyan.baidu.com##.wgt-btn-group-tool
 jingyan.baidu.com##.wgt-footer
+jingyan.baidu.com##.warning
 
 ! 百度图片清理(由coolapk@jfa2008发现此广告
 image.baidu.com##.dom-inspector
@@ -153,7 +154,7 @@ zhidao.baidu.com##.cur
 pan.baidu.com##.foot-container
 
 ! miui论坛清理
-www.miui.com###app
+miui.com###app
 
 ! 139邮箱清理
 mail.10086.cn###advertisingPicture
@@ -211,15 +212,15 @@ mi.com##.download-app-go
 mi.com###top
 
 ! 作业帮清理
-www.zybang.com###smallLayer
-www.zybang.com###middleAd
-www.zybang.com##.askTeacher
-www.zybang.com###topBannerFixed
-www.zybang.com##.app-ads
-www.zybang.com###baiduAd
-www.zybang.com##.qb_wgt-recommend
-www.zybang.com##.qb-wgt_footer
-www.zybang.com##.qb-wgt_guide
+zybang.com###smallLayer
+zybang.com###middleAd
+zybang.com##.askTeacher
+zybang.com###topBannerFixed
+zybang.com##.app-ads
+zybang.com###baiduAd
+zybang.com##.qb_wgt-recommend
+zybang.com##.qb-wgt_footer
+zybang.com##.qb-wgt_guide
 
 ! 太平洋电脑网清理
 pconline.com.cn###pc-aptg
@@ -234,18 +235,79 @@ moegirl.org##.heimu
 ! opengapps清理
 opengapps.org###topa
 
-! 清理
+! 微盘清理
 vdisk.weibo.com###recommend_for_file_container
 
 ! 有道note清理
 note.youdao.com###app-dl
 
 ! 土豆清理
-www.tudou.com##.cms-banner
+tudou.com##.cms-banner
 
 ! vokins大佬的hosts未过滤的广告域名
 ||jiansuo.dsxdn.com^
 ||hao.1235k.com^
 ||w1.guowuhui.com^
 ||9ads.net^
-||www.a0c77.com^
+||a0c77.com^
+||qdscgj.com^
+
+! 百度重排清理
+po.baidu.com###backTopModule
+po.baidu.com##.openBox-shareEntry
+po.baidu.com##.commentEmbed-backHomeBtn
+
+ ! 搜狐清理
+sohu.com##.header
+sohu.com##.toHomeBtn
+sohu.com##.select-wrapper
+
+! coding清理
+coding.net##.smart-app-banner
+
+! NGA玩家社区清理
+bbs.ngacn.cc##table > tr
+bbs.ngacn.cc##table
+
+! qq安全清理
+aq.qq.com###ad_app_priv
+
+! 城通清理
+down.ctfile.com###local_vipby
+
+! GitHub防手残
+github.com##.mobile-banner
+
+! 忘了啥广告
+||new.jundaozichan.com^$subdocument
+
+! 薯片清理
+le.com###j-btn-showhide
+le.com###j-leappMore
+
+! 网易邮箱类清理
+126.com##.mailApp
+reg.163.com##.tabBdAd
+mail.163.com##.mailApp
+||mimg.127.net/index$image
+reg.163.com###appMask
+reg.163.com###shelter_div
+reg.163.com###appDiv
+reg.163.com###ursCode
+reg.email.163.com##.mainBody-side
+zc.reg.163.com###reg_block > div:nth-of-type(3)
+mail.163.com##.sectionShow
+
+! 妖火白名单
+@@||yaohuo.me*ad*$script,first-party
+@@||googlesyndication.com$script,domain=yaohuo.me
+
+! Google防手残
+www.google.com###qslc
+
+! 路由器跳过加载动画
+192.168.1.1##.loading
+192.168.1.1##.dom-inspector
+
+
+
