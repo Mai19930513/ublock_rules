@@ -111,9 +111,6 @@ tmall.com###detail-base-smart-banner
 taobao.com##.download-adv
 taobao.com##.suggest-container
 
-! 阿里系清理
-||alicdn.com*smartbanner*
-
 ! 百度经验清理
 jingyan.baidu.com###exp-fixed-bottom
 jingyan.baidu.com##.placeholder
