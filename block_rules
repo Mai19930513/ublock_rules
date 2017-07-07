@@ -1,5 +1,5 @@
 /----------综合屏蔽规则----------/
-! Last Updated:20170602
+! Last Updated:20170707
 
 ! 百度首页清理
 baidu.com###navs
@@ -90,10 +90,17 @@ tieba.baidu.com##.pb_imgs_right2 > span
 tieba.baidu.com##.dia_mask
 tieba.baidu.com##.dia_wrapper
 tieba.baidu.com##.u9_pb_style
+tieba.baidu.com##.blue_kit_icon_search
+tieba.baidu.com##.blue_kit_left
+tieba.baidu.com##.fixed_bar
 
 ! 知乎清理
 zhihu.com##.AppMagicBanner
-www.zhihu.com##.OpenInAppButton
+zhihu.com##.OpenInAppButton
+zhihu.com##.CommentList-openInAppButton
+zhihu.com##.AnswerList-openInpp
+zhihu.com##div:nth-of-type(2) > div:nth-of-type(2) .Section-title
+zhihu.com##.AppViewRecimmendedReading
 
 ! 新浪体育清理(由coolapk@jfa2008发现此广告
 sports.sina.cn##body > section:nth-of-type(1)
@@ -146,6 +153,7 @@ zhidao.baidu.com##.append
 zhidao.baidu.com##.w-special-answer > h2
 zhidao.baidu.com##.cur
 ||zhidao.baidu.com$xmlhttprequest
+zhidao.baidu.com##.realNameTip
 
 ! 百度云清理
 pan.baidu.com##.foot-container
@@ -248,6 +256,7 @@ tudou.com##.cms-banner
 ||9ads.net^
 ||a0c77.com^
 ||qdscgj.com^
+||hbd.url.cn^
 
 ! 百度重排清理
 po.baidu.com###backTopModule
@@ -306,5 +315,16 @@ www.google.com###qslc
 192.168.1.1##.loading
 192.168.1.1##.dom-inspector
 
+! pixiv清理
+touch.pixiv.net##.grid_ad
+touch.pixiv.net###premium-info-header
+touch.pixiv.net##.premium-info-bar
 
+! 昌乐一中清理
+www.sdclyz.cn###ad1
 
+! 10086清理
+rd.go.10086.cn
+
+! 汽车之家清理
+||autohome.com.cn/news/*/user/main/mainpage
