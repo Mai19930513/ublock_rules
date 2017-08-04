@@ -1,16 +1,25 @@
 /----------综合屏蔽规则----------/
-! Last Updated:20170707
+! Last Updated:20170804
 
 ! 百度首页清理
-baidu.com###navs
-baidu.com##.blank-frame
+baidu.com###commonBase
+baidu.com###index-modal
+baidu.com###index-view
+baidu.com###page > textarea
+baidu.com###search-card
+baidu.com###index-card > .input-hidden
 baidu.com###bottom
+baidu.com###index-card > .tab-tools
+baidu.com###index-card > .blank-frame
 baidu.com###menu-container
-baidu.com###logo
-baidu.com###weather
-baidu.com###userinfo-wrap
-baidu.com##.se-inner
+baidu.com###navs
 baidu.com###index-box
+baidu.com###index-form > .con-wrap > .se-inner
+baidu.com###logo
+baidu.com###skin-wrap
+baidu.com###userinfo-wrap
+baidu.com###skin-container
+baidu.com###weather
 baidu.com###appBanner
 
 ! 搜索结果清理
@@ -46,6 +55,9 @@ baidu.com##.wa-wise-video-entertainers-tabs-wrapper
 baidu.com###tc-card-advertise-container
 baidu.com##.c-line-clamp1
 baidu.com##.c-text-info
+baidu.com##.se-head-logo
+baidu.com##.se-head-tablink
+baidu.com##.se-bearicon
 
 ! 百度百科清理
 ||bkssl.bdimg.com/static/wiki*topAttach
@@ -63,6 +75,7 @@ bilibili.com##.download-link
 bilibili.com##.player-inner-download
 bilibili.com##.load-cover
 bilibili.com*bannerList
+live.bilibili.com##.none-select
 
 ! 百度贴吧清理
 ||bdstatic.com/tb/mobile/cool_game
@@ -117,6 +130,7 @@ tmall.com###detail-base-smart-banner
 ||alicdn.com/mtb/lib-smartbanner-plus
 taobao.com##.download-adv
 taobao.com##.suggest-container
+taobao.com##.app-download
 
 ! 百度经验清理
 jingyan.baidu.com###exp-fixed-bottom
@@ -205,6 +219,8 @@ bbs.smartisan.com##.tips-download
 jd.com###download_banner
 jd.com###search_land_searchland
 jd.com###layout_appdown_view
+jd.com###indexFloatLayer
+||so.m.jd.com/solocalocalstorage.html
 
 ! 手机乐园清理
 shouji.com.cn###backtop
@@ -249,7 +265,7 @@ note.youdao.com###app-dl
 ! 土豆清理
 tudou.com##.cms-banner
 
-! vokins大佬的hosts未过滤的广告域名
+! hosts未过滤的广告域名
 ||jiansuo.dsxdn.com^
 ||hao.1235k.com^
 ||w1.guowuhui.com^
@@ -257,7 +273,14 @@ tudou.com##.cms-banner
 ||a0c77.com^
 ||qdscgj.com^
 ||hbd.url.cn^
-||ad.qun.qq.com^
+||tuia.cn^
+||hnjtls.net^
+||res.wx.qq.com^
+||ltheanine.cn^
+||qifanwang.cn^
+||sohucs.com^
+||waczt.cn^
+||aa.hysdknb.com^
 
 ! 百度重排清理
 po.baidu.com###backTopModule
@@ -268,6 +291,12 @@ po.baidu.com##.commentEmbed-backHomeBtn
 sohu.com##.header
 sohu.com##.toHomeBtn
 sohu.com##.select-wrapper
+soho.com##.noFixed
+soho.com##.sub-header
+soho.com###MPCOMMENT
+soho.com##.fixed
+soho.com##.fixed_back_home
+soho.com##.fixed_back_top
 
 ! coding清理
 coding.net##.smart-app-banner
@@ -324,8 +353,12 @@ touch.pixiv.net##.premium-info-bar
 ! 昌乐一中清理
 www.sdclyz.cn###ad1
 
-! 10086清理
+! 移不动清理
 rd.go.10086.cn
 
 ! 汽车之家清理
 ||autohome.com.cn/news/*/user/main/mainpage
+
+! 大数字云清理
+||360buyimg.com*downloadAppPlugIn*.js
+||st.360buyimg.com/common/commonH_B/js/monitoringTool.min.js
