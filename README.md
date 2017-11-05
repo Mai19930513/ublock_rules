@@ -1,4 +1,4 @@
-## ublock_rules
+### ublock_rules
 那个，啥，这类东西应该可以放到github上吧
 
 这是一个个人用的网页广告屏蔽规则，可以屏蔽常见网站上一些不必要内容(如广告
@@ -12,9 +12,10 @@
 
 使用此规则需要一款支持abp规则的过滤插件，如ublock，安装方法请看 http://www.coolapk.com/feed/2124265
 
-复制本页block_reles中内容，放入“第三方规则列表”中，点击“应用更改”即可
+订阅本规则即可
+订阅地址: https://github.com/FCXplus/ublock_rules/raw/master/rules 
 
-本规则不会包含部分能轻松过滤的广告(如easy list包含的)，使用本规则前请先添加以下三个规则:
+本规则不会包含部分容易与其他规则重复的规则，使用本规则前请先添加以下三个规则:
 https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt
 
 https://easylist-downloads.adblockplus.org/easylistchina.txt
