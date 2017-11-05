@@ -5,22 +5,23 @@
 baidu.com###commonBase
 baidu.com###index-modal
 baidu.com###index-view
-baidu.com###page > textarea
+baidu.com###textarea
 baidu.com###search-card
-baidu.com###index-card > .input-hidden
+baidu.com##.input-hidden
 baidu.com###bottom
-baidu.com###index-card > .tab-tools
-baidu.com###index-card > .blank-frame
+baidu.com##.tab-tools
+baidu.com##.blank-frame
 baidu.com###menu-container
 baidu.com###navs
 baidu.com###index-box
-baidu.com###index-form > .con-wrap > .se-inner
+baidu.com##.se-inner
 baidu.com###logo
 baidu.com###skin-wrap
 baidu.com###userinfo-wrap
 baidu.com###skin-container
 baidu.com###weather
 baidu.com###appBanner
+baidu.com###banner
 
 ! 搜索结果清理
 ||baidu.com/se/static/js/modules/invoke/app
@@ -44,16 +45,16 @@ baidu.com##.wa-wise-app-searchhook
 baidu.com##.wa-stock-lead
 baidu.com##.c-gap-bottom-small
 baidu.com##.c-moreinfo
-! baidu.com##.c-gap-right-small
+baidu.com##.c-gap-right-small
 baidu.com##.c-color-gray
 baidu.com##.c-foot-icon
 baidu.com##.wa-sg-wise-app-download
 ! baidu.com##.c-showurl
-baidu.com##.c-gap-left
+! baidu.com##.c-gap-left
 baidu.com##.wa-wise-sp-discuss
 baidu.com##.wa-wise-video-entertainers-tabs-wrapper
 baidu.com###tc-card-advertise-container
-baidu.com##.c-line-clamp1
+! baidu.com##.c-line-clamp1
 baidu.com##.c-text-info
 baidu.com##.se-head-logo
 baidu.com##.se-head-tablink
@@ -106,6 +107,8 @@ tieba.baidu.com##.u9_pb_style
 tieba.baidu.com##.blue_kit_icon_search
 tieba.baidu.com##.blue_kit_left
 tieba.baidu.com##.fixed_bar
+tieba.baidu.com##.iSlider-wrapper-container-hot-thread
+tieba.baidu.com##.hongbao_page_pop_common
 
 ! 知乎清理
 zhihu.com##.AppMagicBanner
@@ -114,6 +117,7 @@ zhihu.com##.CommentList-openInAppButton
 zhihu.com##.AnswerList-openInpp
 zhihu.com##div:nth-of-type(2) > div:nth-of-type(2) .Section-title
 zhihu.com##.AppViewRecimmendedReading
+zhihu.com##.RelatedReadings
 
 ! 新浪体育清理(由coolapk@jfa2008发现此广告
 sports.sina.cn##body > section:nth-of-type(1)
@@ -124,6 +128,7 @@ sports.sina.cn###pageJumpBtn
 ||alicdn.com/mui/*app-download
 tmall.com##.tm-ctn-loading
 tmall.com###detail-base-smart-banner
+tmall.com###J_smartjump
 
 ! 淘宝清理
 ||taobao.com/js/smartbanner
@@ -131,6 +136,7 @@ tmall.com###detail-base-smart-banner
 taobao.com##.download-adv
 taobao.com##.suggest-container
 taobao.com##.app-download
+taobao.com##.install-app
 
 ! 百度经验清理
 jingyan.baidu.com###exp-fixed-bottom
@@ -168,9 +174,11 @@ zhidao.baidu.com##.w-special-answer > h2
 zhidao.baidu.com##.cur
 ||zhidao.baidu.com$xmlhttprequest
 zhidao.baidu.com##.realNameTip
+zhidao.baidu.com##.icon-ad
 
 ! 百度云清理
 pan.baidu.com##.foot-container
+pan.baidu.com##.temp-tip
 
 ! miui论坛清理
 miui.com###app
@@ -220,7 +228,9 @@ jd.com###download_banner
 jd.com###search_land_searchland
 jd.com###layout_appdown_view
 jd.com###indexFloatLayer
-||so.m.jd.com/solocalocalstorage.html
+jd.com###btmToTop
+||360buyimg.com*downloadAppPlugIn*.js
+||st.360buyimg.com/common/commonH_B/js/monitoringTool.min.js
 
 ! 手机乐园清理
 shouji.com.cn###backtop
@@ -264,6 +274,9 @@ note.youdao.com###app-dl
 
 ! 土豆清理
 tudou.com##.cms-banner
+tudou.com##.td-h5__player__appguide
+tudou.com##.td-h5__appguide-fix
+tudou.com##.td-h5__relatedvideos
 
 ! hosts未过滤的广告域名
 ||jiansuo.dsxdn.com^
@@ -273,7 +286,6 @@ tudou.com##.cms-banner
 ||a0c77.com^
 ||qdscgj.com^
 ||hbd.url.cn^
-||ad.qun.qq.com^
 ||tuia.cn^
 ||hnjtls.net^
 ||res.wx.qq.com^
@@ -310,7 +322,9 @@ bbs.ngacn.cc##table
 aq.qq.com###ad_app_priv
 
 ! 城通清理
-down.ctfile.com###local_vipby
+ctfile.com##.pricing-box
+ctfile.com###local_vipby
+ctfile.com##.in
 
 ! GitHub防手残
 github.com##.mobile-banner
@@ -360,6 +374,12 @@ rd.go.10086.cn
 ! 汽车之家清理
 ||autohome.com.cn/news/*/user/main/mainpage
 
-! 大数字云清理
-||360buyimg.com*downloadAppPlugIn*.js
-||st.360buyimg.com/common/commonH_B/js/monitoringTool.min.js
+#优酷清理
+youku.com##.iconPop
+
+#亚马逊清理
+amazon.com###smart-app-banner
+amazon.com###nav-mobile-airstream-stripe
+
+#自用
+aria2##.ng-scope.nav-list.nav.clearfix
