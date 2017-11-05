@@ -26,8 +26,8 @@ https://easylist-downloads.adblockplus.org/easylistchina.txt
 
 https://easylist-downloads.adblockplus.org/easyprivacy.txt
 
-推荐大家去用这个过滤规则，比我的不知道高到哪里去了
+大家也可以去试试这个过滤规则，比我的不知道高到哪里去了
 
 https://git.oschina.net/halflife/list/raw/master/ad.txt
 
-如果你真的要使用我的规则，请使用uBlock Origin v1.10.6这个版本，新版貌似不支持例外规则了
+如果你真的要使用我的规则，请使用uBlock Origin 的最新版本
