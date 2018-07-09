@@ -1,5 +1,5 @@
 /----------综合屏蔽规则----------/
-! Last Updated:20171105
+! Last Updated:20180709
 
 ! 百度首页清理
 baidu.com###commonBase
@@ -23,6 +23,7 @@ baidu.com###weather
 baidu.com###appBanner
 baidu.com###banner
 baidu.com##.callappbox
+baidu.com##.first-card-container
 
 ! 搜索结果清理
 ||baidu.com/se/static/js/modules/invoke/app
@@ -71,6 +72,7 @@ wapbaike.baidu.com###J-gotop
 wapbaike.baidu.com##.float-content-wrapper
 wapbaike.baidu.com##.BK-after-content-wrapper
 wapbaike.baidu.com###topbar_tashuo
+wapbaike.baidu.com###J-tashuo-button-fixed
 
 ! bilibili清理
 bilibili.com###b_app_link
@@ -111,6 +113,9 @@ tieba.baidu.com##.blue_kit_left
 tieba.baidu.com##.fixed_bar
 tieba.baidu.com##.iSlider-wrapper-container-hot-thread
 tieba.baidu.com##.hongbao_page_pop_common
+tieba.baidu.com##.ui_image_header_bottom
+tieba.baidu.com###lzl_reply_postor_wrap
+tieba.baidu.com##.img_desc
 
 ! 知乎清理
 zhihu.com##.AppMagicBanner
@@ -142,6 +147,9 @@ taobao.com##.app-download
 taobao.com##.install-app
 ||g.alicdn.com/mtb/lib-smb-wake
 taobao.com##.more
+taobao.com###bottom
+taobao.com##a:nth-of-type(5)
+taobao.com##.smartbanner-wrapper
 
 ! 百度经验清理
 jingyan.baidu.com###exp-fixed-bottom
@@ -153,6 +161,8 @@ jingyan.baidu.com##.wgt-toolbar-n
 jingyan.baidu.com##.wgt-btn-group-tool
 jingyan.baidu.com##.wgt-footer
 jingyan.baidu.com##.warning
+jingyan.baidu.com##.wgt-ad-recommend
+jingyan.baidu.com##.ad-card
 
 ! 百度图片清理(由coolapk@jfa2008发现此广告
 image.baidu.com##.dom-inspector
@@ -183,6 +193,7 @@ zhidao.baidu.com##.icon-ad
 zhidao.baidu.com###ask-for-help
 zhidao.baidu.com##.ask-for-friend
 zhidao.baidu.com##.dl
+zhidao.baidu.com##.js-hot-topic
 
 ! 百度云清理
 pan.baidu.com##.foot-container
@@ -240,6 +251,9 @@ jd.com###indexFloatLayer
 jd.com###btmToTop
 ||360buyimg.com*downloadAppPlugIn*.js
 ||st.360buyimg.com/common/commonH_B/js/monitoringTool.min.js
+jd.com###searchList_open_app
+jd.com##.searchListDownApp
+jd.com###content
 
 ! 手机乐园清理
 shouji.com.cn###backtop
@@ -308,6 +322,7 @@ tudou.com##.td-h5__relatedvideos
 ||awqsaged.cn^
 ||validcdn.xyz^
 ||s3.amazonaws.com^$script
+||hao245.com^
 
 ! 百度重排清理
 po.baidu.com###backTopModule
@@ -339,6 +354,7 @@ aq.qq.com###ad_app_priv
 ctfile.com##.pricing-box
 ctfile.com###local_vipby
 ctfile.com##.in
+ctfile.com##.alert-block
 
 ! GitHub防手残
 github.com##.mobile-banner
@@ -367,24 +383,27 @@ reg.163.com##.hd-you
 reg.163.com##.g-mail-ad
 mail.163.com###mailMasterTip
 
-! 妖火白名单
-@@||yaohuo.me*ad*$script,first-party
-@@||googlesyndication.com$script,domain=yaohuo.me
-
 ! Google防手残
-www.google.com###qslc
+google.com###qslc
 
 ! 路由器跳过加载动画
 192.168.1.1##.loading
 192.168.1.1##.dom-inspector
 
 ! pixiv清理
-touch.pixiv.net##.grid_ad
-touch.pixiv.net###premium-info-header
-touch.pixiv.net##.premium-info-bar
+pixiv.net##.grid_ad
+pixiv.net###premium-info-header
+pixiv.net##.premium-info-bar
+pixiv.net##.premium-lead
+pixiv.net##.geta
+pixiv.net###header > div
+pixiv.net###spa-contents > div > div:nth-of-type(4)
+pixiv.net##.work-share-box
+pixiv.net##.premium-lead-t-footer
+pixiv.net##span:nth-of-type(15)
 
 ! 昌乐一中清理
-www.sdclyz.cn###ad1
+sdclyz.cn###ad1
 
 ! 移不动清理
 rd.go.10086.cn
@@ -403,6 +422,9 @@ amazon.com###nav-mobile-airstream-stripe
 #自用
 aria2##.ng-scope.nav-list.nav.clearfix
 ip111.cn##td:nth-of-type(3)
+! pan.baidu.com###saveAll
+! pan.baidu.com###saveFile
+192.168.4.1###gtx-trans
 
 ! 移动叔叔清理
 bbs.ydss.cn###mcon > .cl
@@ -420,3 +442,24 @@ thepaper.cn##.burger-abox
 acfun.cn###prompt-box
 acfun.cn###bottom-download
 acfun.cn###btn-top-shortcut
+
+! vps侦探清理
+bbs.vpser.net###donate
+
+! 花粉俱乐部清理
+cn.club.vmall.com##.hbt-adimg
+
+! CSDN清理
+blog.csdn.net##.pre-numbering
+
+! 体验盒子清理
+uedbox.com##.crayon-nums
+
+! bing清理
+bing.com###BottomAppPro
+
+! zol清理
+wap.zol.com.cn###waitrep
+
+! xda清理
+forum.xda-developers.com##.twig
