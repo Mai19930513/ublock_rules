@@ -8,7 +8,6 @@
 由于是个人使用，可能会误杀一些东西，请自行删减
 
 ## 食用方法:
-
 使用此规则需要一款支持abp规则的过滤插件，如ublock，安装方法请看 http://www.coolapk.com/feed/2124265
 
 订阅本规则即可
@@ -17,3 +16,8 @@
 本规则不会包含部分容易与其他规则重复的规则，使用本规则前请先添加easylist规则
 
 如果你真的要使用，建议使用 uBlock Origin 的最新版本
+
+##
+更新了什么？
+
+https://github.com/rhjdvsgsgks/ublock_rules/commit/adc482aeac9eb292b85af588fa4cc4f1a0251ee2
