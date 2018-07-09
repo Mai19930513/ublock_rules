@@ -17,7 +17,5 @@
 
 如果你真的要使用，建议使用 uBlock Origin 的最新版本
 
-##
-更新了什么？
-
+##更新了什么？
 https://github.com/rhjdvsgsgks/ublock_rules/commit/adc482aeac9eb292b85af588fa4cc4f1a0251ee2
