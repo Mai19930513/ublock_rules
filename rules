@@ -25,19 +25,19 @@ baidu.com###banner
 baidu.com##.callappbox
 baidu.com##.first-card-container
 
-! 搜索结果清理
+! 百度搜索结果清理
 ||baidu.com/se/static/js/modules/invoke/app
 baidu.com###head
 baidu.com###page-copyright
 baidu.com###page-ft
 baidu.com##.rw-title
 baidu.com##b-scroll
-baidu.com###page-tips
+! baidu.com###page-tips
 baidu.com###se-box
 baidu.com##.wa-sam-wz-micro-video3-wrapper
 baidu.com##.wa-realtime-list
 baidu.com##.c-gap-bottom-large
-baidu.com##.c-line-bottom
+! baidu.com##.c-line-bottom
 baidu.com##.wa-we-image
 baidu.com##.c-recomm-wrap.c-container
 baidu.com##.wa-image
@@ -45,10 +45,10 @@ baidu.com##.wa-wise-app-desc
 baidu.com##.wa-wise-app-info-metabar
 baidu.com##.wa-wise-app-searchhook
 baidu.com##.wa-stock-lead
-baidu.com##.c-gap-bottom-small
-baidu.com##.c-moreinfo
+! baidu.com##.c-gap-bottom-small
+! baidu.com##.c-moreinfo
 baidu.com##.c-gap-right-small
-baidu.com##.c-color-gray
+! baidu.com##.c-color-gray
 baidu.com##.c-foot-icon
 baidu.com##.wa-sg-wise-app-download
 ! baidu.com##.c-showurl
@@ -62,6 +62,10 @@ baidu.com##.se-head-logo
 baidu.com##.se-head-tablink
 baidu.com##.se-bearicon
 baidu.com##.page-banner
+baidu.com##.wa-bk-polysemy-anchor-span
+baidu.com##section
+baidu.com##.suggest-wrapper
+baidu.com##.wa-recommend-list
 
 ! 百度百科清理
 ||bkssl.bdimg.com/static/wiki*topAttach
@@ -73,6 +77,10 @@ wapbaike.baidu.com##.float-content-wrapper
 wapbaike.baidu.com##.BK-after-content-wrapper
 wapbaike.baidu.com###topbar_tashuo
 wapbaike.baidu.com###J-tashuo-button-fixed
+
+! 百度极限清理
+||*^$script,domain=www.baidu.com
+||*^$script,domain=m.baidu.com
 
 ! bilibili清理
 bilibili.com###b_app_link
@@ -116,6 +124,7 @@ tieba.baidu.com##.hongbao_page_pop_common
 tieba.baidu.com##.ui_image_header_bottom
 tieba.baidu.com###lzl_reply_postor_wrap
 tieba.baidu.com##.img_desc
+tieba.baidu.com###pb_reply_postor_wrap
 
 ! 知乎清理
 zhihu.com##.AppMagicBanner
@@ -150,6 +159,12 @@ taobao.com##.more
 taobao.com###bottom
 taobao.com##a:nth-of-type(5)
 taobao.com##.smartbanner-wrapper
+taobao.com##.closed
+taobao.com##.logo
+taobao.com##div.tpl-wrapper:nth-of-type(4) > div > div:nth-of-type(3)
+taobao.com##.detail-recommend
+taobao.com##.recommends
+||taobao.com/apps/market/trade/recommend.html$subdocument
 
 ! 百度经验清理
 jingyan.baidu.com###exp-fixed-bottom
@@ -254,6 +269,10 @@ jd.com###btmToTop
 jd.com###searchList_open_app
 jd.com##.searchListDownApp
 jd.com###content
+jd.com###mCommonDiscover
+jd.com###mDownload
+jd.com###recowordBlock
+jd.com##.qq_footer
 
 ! 手机乐园清理
 shouji.com.cn###backtop
@@ -343,10 +362,6 @@ soho.com##.fixed_back_top
 ! coding清理
 coding.net##.smart-app-banner
 
-! NGA玩家社区清理
-bbs.ngacn.cc##table > tr
-bbs.ngacn.cc##table
-
 ! qq安全清理
 aq.qq.com###ad_app_priv
 
@@ -411,15 +426,15 @@ rd.go.10086.cn
 ! 汽车之家清理
 ||autohome.com.cn/news/*/user/main/mainpage
 
-#优酷清理
+! 优酷清理
 youku.com##.iconPop
 ||g.alicdn.com/ku/app-smartbanner/*
 
-#亚马逊清理
+! 亚马逊清理
 amazon.com###smart-app-banner
 amazon.com###nav-mobile-airstream-stripe
 
-#自用
+! 自用
 aria2##.ng-scope.nav-list.nav.clearfix
 ip111.cn##td:nth-of-type(3)
 ! pan.baidu.com###saveAll
@@ -463,3 +478,23 @@ wap.zol.com.cn###waitrep
 
 ! xda清理
 forum.xda-developers.com##.twig
+
+! 宽带技术网清理
+chinadsl.net###wechat_float_qrcode
+
+! DiggBT清理
+diggbts.org##.flink
+diggbts.org##.content
+
+! 抖音清理
+iesdouyin.com###pagelet-banner
+iesdouyin.com##.list-wrap
+iesdouyin.com###bannerBottom
+iesdouyin.com###videoInfo
+iesdouyin.com###recommWrap
+iesdouyin.com##.downloadDlg
+iesdouyin.com##.video-mask
+iesdouyin.com##.user-follow-btn
+
+! 微信清理
+mp.weixin.qq.com##.img_loading
