@@ -19,4 +19,4 @@
 
 ## 更新了什么
 
-https://github.com/rhjdvsgsgks/ublock_rules/commit/adc482aeac9eb292b85af588fa4cc4f1a0251ee2
+https://github.com/rhjdvsgsgks/ublock_rules/commit/e404943668bd3e35d3e15743e8df9c42351211ca
