@@ -498,3 +498,9 @@ iesdouyin.com##.user-follow-btn
 
 ! 微信清理
 mp.weixin.qq.com##.img_loading
+
+! 屏蔽哈哈广告
+haha.mx##div[id*="mob"]
+
+! 屏蔽糗事百科红包广告
+qiushibaike.com##img[class="banner"]
