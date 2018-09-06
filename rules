@@ -15,7 +15,6 @@ baidu.com###menu-container
 baidu.com###navs
 baidu.com###index-box
 baidu.com##.se-inner
-baidu.com###logo
 baidu.com###skin-wrap
 baidu.com###userinfo-wrap
 baidu.com###skin-container
@@ -24,6 +23,7 @@ baidu.com###appBanner
 baidu.com###banner
 baidu.com##.callappbox
 baidu.com##.first-card-container
+baidu.com##.index-invoke-banner-style+*
 
 ! 百度搜索结果清理
 ||baidu.com/se/static/js/modules/invoke/app
@@ -504,3 +504,11 @@ haha.mx##div[id*="mob"]
 
 ! 屏蔽糗事百科红包广告
 qiushibaike.com##img[class="banner"]
+
+! CSDN博客清理
+blog.csdn.net###btnDigg  
+blog.csdn.net###res-relatived  
+blog.csdn.net##.bdsharebuttonbox.tracking-ad.bdshare-button-style0-16  
+blog.csdn.net##.blog-ass-articl  
+blog.csdn.net##.digg.digg_enable  
+blog.csdn.net##.tag_list  
